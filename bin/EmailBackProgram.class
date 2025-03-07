@@ -1,0 +1,36 @@
+// IntelliJ API Decompiler stub source generated from a class file
+  // Implementation of methods is not available
+
+  package emailgenerator;
+
+  public class EmailBackProgram {
+      private java.lang.String firstname;
+      private java.lang.String lastname;
+      private java.lang.String password;
+      private java.lang.String department;
+      private java.lang.String email;
+      private int mailboxCapacity;
+      private int defaultPasswordLength;
+      private java.lang.String alternateEmail;
+      private java.lang.String companySuffix;
+  
+      public EmailBackProgram(java.lang.String firstname, java.lang.String lastname) { /* compiled code */ }
+  
+      private java.lang.String setDepartment() { /* compiled code */ }
+  
+      private java.lang.String randomPassword(int length) { /* compiled code */ }
+  
+      public void setMailboxCapacity(int capacity) { /* compiled code */ }
+  
+      public void setAlternateEmail(java.lang.String altEmail) { /* compiled code */ }
+  
+      public void changePassword(java.lang.String password) { /* compiled code */ }
+  
+      public int getMailboxCapacity() { /* compiled code */ }
+  
+      public java.lang.String getAlternateEmail() { /* compiled code */ }
+  
+      public java.lang.String getPassword() { /* compiled code */ }
+  
+      public java.lang.String showInfo() { /* compiled code */ }
+  }
