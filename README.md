@@ -9,4 +9,4 @@ Download zip
 After Download Extract it.
 Right click
 Open folder as intellij idea project or Open folder as project eclipse
-Than, Open Src and also open .java files and Run.
+Then, Open Src and also open .java files and Run.
