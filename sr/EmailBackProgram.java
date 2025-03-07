@@ -37,17 +37,16 @@ public class Email {
 
 	private String setDepartment(){
 		System.out.println("Enter the department Id\nSales : 1\nDevelopment : 2\nAccounting : 3");
-		try (Scanner in = new Scanner(System.in)) {
-			int dep=in.nextInt();
-			if(dep==1){
-				return "sales";
-			}
-			else if(dep==2){
-				return"dev";
-			}
-			else if(dep==3){
-				return "acc";
-			}
+		Scanner in=new Scanner(System.in);
+		int dep=in.nextInt();
+		if(dep==1){
+			return "sales";
+		}
+		else if(dep==2){
+			return"dev";
+		}
+		else if(dep==3){
+			return "acc";
 		}
 		return"";
 	}
